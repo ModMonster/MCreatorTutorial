@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT License"
+
+[[mods]]
+modId="tutorialmod"
+version="1.0.0"
+displayName="Tutorial Mod"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="ModMonster"
+description='''
+A mod that I made for a tutorial series on YouTube.
+'''
+
+[[dependencies.tutorialmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

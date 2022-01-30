@@ -1,0 +1,60 @@
+{
+  "_fv": 24,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "ardanium_helmet_texture",
+    "enableBody": true,
+    "textureBody": "ardanium_chestplate_texture",
+    "enableLeggings": true,
+    "textureLeggings": "ardanium_leggings_texture",
+    "enableBoots": true,
+    "textureBoots": "ardanium_boots_texture",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "iron__2",
+    "helmetName": "Ardanium Helmet",
+    "bodyName": "Ardanium Chestplate",
+    "leggingsName": "Ardanium Leggings",
+    "bootsName": "Ardanium Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 18,
+    "damageValueHelmet": 2,
+    "damageValueBody": 7,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 16,
+    "toughness": 1.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": "item.armor.equip_iron"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:ArdaniumIngot"
+      }
+    ]
+  }
+}

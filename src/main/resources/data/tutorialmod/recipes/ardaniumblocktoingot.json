@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tutorialmod:ardanium_block"
+    }
+  ],
+  "result": {
+    "item": "tutorialmod:ardanium_ingot",
+    "count": 9
+  }
+}

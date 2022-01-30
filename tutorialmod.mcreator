@@ -1,0 +1,332 @@
+{
+  "mod_elements": [
+    {
+      "name": "ArdaniumIngot",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "ArdaniumBlock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "ArdaniumIngotToBlock",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "ArdaniumBlockToIngot",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "ArdaniumOre",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "ArdaniumOreSmelt",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "ArdaniumSword",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "ArdaniumPickaxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "ArdaniumAxe",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "ArdaniumShovel",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "ArdaniumHoe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "ArdaniumSwordRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "ArdaniumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "ArdaniumAxeRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "ArdaniumShovelRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "ArdaniumHoeRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "ArdaniumArmor",
+      "type": "armor",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "ArdaniumHelmetRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "ArdaniumChestplateRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "ArdaniumLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "ArdaniumBootsRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "ArdaniumDust",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ardanium_dust"
+    },
+    {
+      "name": "Crusher",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crusher"
+    },
+    {
+      "name": "CrusherGUI",
+      "type": "gui",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crusher_gui"
+    },
+    {
+      "name": "CrusherCrush",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crusher_crush",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArdaniumCow",
+      "type": "livingentity",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ardanium_cow"
+    },
+    {
+      "name": "ArdaniumAirshipLootTable",
+      "type": "loottable",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ardanium_airship_loot_table"
+    },
+    {
+      "name": "ArdaniumAirship",
+      "type": "structure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ardanium_airship"
+    },
+    {
+      "name": "ArdaniumInfusedDirt",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ardanium_infused_dirt"
+    },
+    {
+      "name": "ArdaniumInfusedGrass",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ardanium_infused_grass"
+    },
+    {
+      "name": "ArdaniumBiome",
+      "type": "biome",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ardanium_biome"
+    },
+    {
+      "name": "MoltenArdanium",
+      "type": "fluid",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molten_ardanium",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "MoltenArdaniumBucketRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molten_ardanium_bucket_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.tutorialmod.ardanium_infused_grass": "Ardanium Infused Grass",
+      "item.tutorialmod.ardanium_axe": "Ardanium Axe",
+      "biome.tutorialmod.ardanium_biome": "Ardanium Biome",
+      "item.tutorialmod.ardaniumarmorboots": "Ardanium Boots",
+      "item.tutorialmod.ardanium_cow_spawn_egg": "Ardanium Cow Spawn Egg",
+      "item.tutorialmod.ardaniumarmor_chestplate": "Ardanium Chestplate",
+      "item.tutorialmod.ardaniumshovel": "Ardanium Shovel",
+      "item.tutorialmod.ardanium_armor_boots": "Ardanium Boots",
+      "item.tutorialmod.ardaniumarmor_leggings": "Ardanium Leggings",
+      "block.tutorialmod.molten_ardanium": "Molten Ardanium",
+      "item.tutorialmod.ardanium_hoe": "Ardanium Hoe",
+      "item.tutorialmod.ardanium_shovel": "Ardanium Shovel",
+      "block.tutorialmod.ardanium_block": "Ardanium Block",
+      "item.tutorialmod.ardaniumpickaxe": "Ardanium Pickaxe",
+      "item.tutorialmod.ardaniumaxe": "Ardanium Axe",
+      "block.tutorialmod.ardanium_ore": "Ardanium Ore",
+      "item.tutorialmod.ardanium_ingot": "Ardanium Ingot",
+      "item.tutorialmod.ardanium_dust": "Ardanium Dust",
+      "block.tutorialmod.crusher": "Crusher",
+      "block.tutorialmod.ardanium_infused_dirt": "Ardanium Infused Dirt",
+      "block.tutorialmod.ardaniumore": "Ardanium Ore",
+      "block.tutorialmod.ardaniumblock": "Ardanium Block",
+      "item.tutorialmod.ardaniumarmorlegs": "Ardanium Leggings",
+      "item.tutorialmod.ardanium_sword": "Ardanium Sword",
+      "item.tutorialmod.molten_ardanium_bucket": "Molten Ardanium Bucket",
+      "item.tutorialmod.ardanium_armor_helmet": "Ardanium Helmet",
+      "item.tutorialmod.ardaniumarmor_boots": "Ardanium Boots",
+      "item.tutorialmod.ardaniumhoe": "Ardanium Hoe",
+      "item.tutorialmod.ardaniumarmorbody": "Ardanium Chestplate",
+      "item.tutorialmod.ardanium_pickaxe": "Ardanium Pickaxe",
+      "item.tutorialmod.ardanium_armor_chestplate": "Ardanium Chestplate",
+      "item.tutorialmod.ardaniumarmor_helmet": "Ardanium Helmet",
+      "item.tutorialmod.ardanium_armor_leggings": "Ardanium Leggings",
+      "item.tutorialmod.ardaniumingot": "Ardanium Ingot",
+      "item.tutorialmod.ardaniumsword": "Ardanium Sword",
+      "fluid.tutorialmod.molten_ardanium": "Molten Ardanium",
+      "item.tutorialmod.ardaniumarmorhelmet": "Ardanium Helmet",
+      "entity.tutorialmod.ardanium_cow": "Ardanium Cow"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "tutorialmod",
+    "modName": "Tutorial Mod",
+    "version": "1.0.0",
+    "description": "A mod that I made for a tutorial series on YouTube.",
+    "author": "ModMonster",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "com.modmonster.tutorialmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100353117
+}

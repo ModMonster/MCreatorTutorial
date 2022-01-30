@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "tutorialmod:ardanium_ore"
+  },
+  "result": {
+    "item": "tutorialmod:ardanium_ingot"
+  }
+}

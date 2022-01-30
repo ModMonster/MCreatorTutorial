@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tutorialmod:blocks/ardanium_infused_dirt_texture",
+    "up": "tutorialmod:blocks/ardanium_infused_grass_top",
+    "north": "tutorialmod:blocks/ardanium_infused_grass_side",
+    "east": "tutorialmod:blocks/ardanium_infused_grass_side",
+    "south": "tutorialmod:blocks/ardanium_infused_grass_side",
+    "west": "tutorialmod:blocks/ardanium_infused_grass_side",
+    "particle": "tutorialmod:blocks/ardanium_infused_dirt_texture"
+  }
+}
