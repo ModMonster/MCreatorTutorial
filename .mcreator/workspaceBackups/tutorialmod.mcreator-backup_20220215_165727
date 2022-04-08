@@ -240,33 +240,87 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "ardanium_biome"
+    },
+    {
+      "name": "MoltenArdanium",
+      "type": "fluid",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molten_ardanium",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "MoltenArdaniumBucketRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molten_ardanium_bucket_recipe"
+    },
+    {
+      "name": "ArdaniumDimension",
+      "type": "dimension",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ardanium_dimension",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "ArdaniumOrbRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ardanium_orb_recipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.tutorialmod.ardanium_dust": "Ardanium Dust",
-      "block.tutorialmod.crusher": "Crusher",
-      "block.tutorialmod.ardanium_infused_dirt": "Ardanium Infused Dirt",
-      "block.tutorialmod.ardaniumore": "Ardanium Ore",
       "block.tutorialmod.ardanium_infused_grass": "Ardanium Infused Grass",
-      "item.tutorialmod.ardaniumarmorlegs": "Ardanium Leggings",
-      "block.tutorialmod.ardaniumblock": "Ardanium Block",
+      "item.tutorialmod.ardanium_axe": "Ardanium Axe",
       "biome.tutorialmod.ardanium_biome": "Ardanium Biome",
       "item.tutorialmod.ardaniumarmorboots": "Ardanium Boots",
       "item.tutorialmod.ardanium_cow_spawn_egg": "Ardanium Cow Spawn Egg",
       "item.tutorialmod.ardaniumarmor_chestplate": "Ardanium Chestplate",
       "item.tutorialmod.ardaniumshovel": "Ardanium Shovel",
+      "item.tutorialmod.ardanium_armor_boots": "Ardanium Boots",
+      "item.tutorialmod.ardaniumarmor_leggings": "Ardanium Leggings",
+      "block.tutorialmod.molten_ardanium": "Molten Ardanium",
+      "item.tutorialmod.ardanium_hoe": "Ardanium Hoe",
+      "item.tutorialmod.ardanium_shovel": "Ardanium Shovel",
+      "item.tutorialmod.ardanium_dimension": "Ardanium Orb",
+      "block.tutorialmod.ardanium_block": "Ardanium Block",
+      "item.tutorialmod.ardaniumpickaxe": "Ardanium Pickaxe",
+      "item.tutorialmod.ardaniumaxe": "Ardanium Axe",
+      "block.tutorialmod.ardanium_ore": "Ardanium Ore",
+      "item.tutorialmod.ardanium_ingot": "Ardanium Ingot",
+      "item.tutorialmod.ardanium_dust": "Ardanium Dust",
+      "block.tutorialmod.crusher": "Crusher",
+      "block.tutorialmod.ardanium_infused_dirt": "Ardanium Infused Dirt",
+      "block.tutorialmod.ardaniumore": "Ardanium Ore",
+      "block.tutorialmod.ardaniumblock": "Ardanium Block",
+      "item.tutorialmod.ardaniumarmorlegs": "Ardanium Leggings",
+      "item.tutorialmod.ardanium_sword": "Ardanium Sword",
+      "item.tutorialmod.molten_ardanium_bucket": "Molten Ardanium Bucket",
+      "item.tutorialmod.ardanium_armor_helmet": "Ardanium Helmet",
       "item.tutorialmod.ardaniumarmor_boots": "Ardanium Boots",
       "item.tutorialmod.ardaniumhoe": "Ardanium Hoe",
       "item.tutorialmod.ardaniumarmorbody": "Ardanium Chestplate",
-      "item.tutorialmod.ardaniumarmor_leggings": "Ardanium Leggings",
+      "item.tutorialmod.ardanium_pickaxe": "Ardanium Pickaxe",
+      "item.tutorialmod.ardanium_armor_chestplate": "Ardanium Chestplate",
       "item.tutorialmod.ardaniumarmor_helmet": "Ardanium Helmet",
+      "item.tutorialmod.ardanium_armor_leggings": "Ardanium Leggings",
       "item.tutorialmod.ardaniumingot": "Ardanium Ingot",
       "item.tutorialmod.ardaniumsword": "Ardanium Sword",
-      "item.tutorialmod.ardaniumpickaxe": "Ardanium Pickaxe",
-      "item.tutorialmod.ardaniumaxe": "Ardanium Axe",
+      "fluid.tutorialmod.molten_ardanium": "Molten Ardanium",
       "item.tutorialmod.ardaniumarmorhelmet": "Ardanium Helmet",
       "entity.tutorialmod.ardanium_cow": "Ardanium Cow"
     }
@@ -277,10 +331,12 @@
   },
   "workspaceSettings": {
     "modid": "tutorialmod",
-    "modName": "tutorialmod",
+    "modName": "Tutorial Mod",
     "version": "1.0.0",
-    "author": "modmo",
+    "description": "A mod that I made for a tutorial series on YouTube.",
+    "author": "ModMonster",
     "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
@@ -288,7 +344,9 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "com.modmonster.tutorialmod",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100118117
+  "mcreatorVersion": 202100353117
 }

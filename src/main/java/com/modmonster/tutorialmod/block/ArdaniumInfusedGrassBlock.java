@@ -2,9 +2,11 @@
 package com.modmonster.tutorialmod.block;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.common.IPlantable;
 
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.Direction;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
@@ -45,6 +47,11 @@ public class ArdaniumInfusedGrassBlock extends TutorialmodModElements.ModElement
 		@Override
 		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
 			return 15;
+		}
+
+		@Override
+		public boolean canSustainPlant(BlockState state, IBlockReader world, BlockPos pos, Direction direction, IPlantable plantable) {
+			return true;
 		}
 
 		@Override
