@@ -271,6 +271,25 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "molten_ardanium_bucket_recipe"
+    },
+    {
+      "name": "ArdaniumDimension",
+      "type": "dimension",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ardanium_dimension",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "ArdaniumOrbRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ardanium_orb_recipe"
     }
   ],
   "variable_elements": [],
@@ -289,6 +308,7 @@
       "block.tutorialmod.molten_ardanium": "Molten Ardanium",
       "item.tutorialmod.ardanium_hoe": "Ardanium Hoe",
       "item.tutorialmod.ardanium_shovel": "Ardanium Shovel",
+      "item.tutorialmod.ardanium_dimension": "Ardanium Orb",
       "block.tutorialmod.ardanium_block": "Ardanium Block",
       "item.tutorialmod.ardaniumpickaxe": "Ardanium Pickaxe",
       "item.tutorialmod.ardaniumaxe": "Ardanium Axe",
